@@ -8,9 +8,8 @@ tags: Python
 於 [Python官網下載頁](https://www.python.org/downloads/) 下載 Python 套件
 ![](https://imgur.com/hQqjVob.png)
 
-安裝套件，這邊要注意兩點
-1.請記得 Python 安裝路徑，稍後會用到。
-2.請將 **"Add Python 3.7 to Path"** 選項勾起，讓系統設定好環境變數 
+安裝套件，這邊要注意一下
+請將 **"Add Python 3.7 to Path"** 選項勾起，讓系統設定好環境變數 
   (因為安裝軟體預設是沒勾起，塔克當初忽略它，結果一直安裝不好，搞好久 Or2)
 ![](https://imgur.com/UAFFtpR.png)
 

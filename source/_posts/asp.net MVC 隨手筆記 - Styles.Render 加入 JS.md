@@ -22,7 +22,7 @@ bundles.Add(new ScriptBundle("~/bundles/vue").Include("~/Scripts/vue.js"));
 ```
 @Scripts.Render("~/bundles/vue")
 ```
-![image alt](https://imgur.com/hs2deeO.png)
+![](https://imgur.com/hs2deeO.png)
 
 *額外小補充
 可使用 {version}、** *等模糊查詢功能*
@@ -34,7 +34,7 @@ bundles.Add(newScriptBundle("~/bundles/typename").IncludeDirectory("~/Scripts/di
 ```
 舉個例子 >>>
 新增 JS 檔案
-![image alt](https://imgur.com/itt99A8.png)
+![](https://imgur.com/itt99A8.png)
 
 輸入代碼
 ```
@@ -44,7 +44,7 @@ bundles.Add(newScriptBundle("~/bundles/AllJS").IncludeDirectory("~/Scripts/MainJ
 ```
 @Scripts.Render("~/bundles/AllJS")
 ```
-![image alt](https://imgur.com/Q3YKaV7.png)
+![](https://imgur.com/Q3YKaV7.png)
 
 
 *額外小補充

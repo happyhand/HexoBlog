@@ -9,8 +9,8 @@ tags: Python
 ![](https://imgur.com/hQqjVob.png)
 
 安裝套件，這邊要注意一下
-請將 **"Add Python 3.7 to Path"** 選項勾起，讓系統設定好環境變數 
-  (因為安裝軟體預設是沒勾起，塔克當初忽略它，結果一直安裝不好，搞好久 Or2)
+請將 **"Add Python 3.7 to Path"** 選項勾起，讓系統設定好環境變數
+(因為安裝軟體預設是沒勾起，塔克當初忽略它，結果一直安裝不好，搞好久 Or2)
 ![](https://imgur.com/UAFFtpR.png)
 
 安裝好後，請打開命令提示字元 (cmd)，輸入以下指令，測試有沒有成功安裝版本
@@ -32,3 +32,7 @@ print("Hello World !");
 python hello.py
 ```
 ![](https://imgur.com/yNztjar.png)
+
+*額外小補充
+安裝完 Python 後，記得要重開機，環境變數才會生效唷 !
+(當初塔克又卡在這邊很久 Or2)*

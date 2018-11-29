@@ -4,7 +4,7 @@ date: 2018-11-21 14:03:49
 categories: 學習日誌
 tags: asp.new MVC
 ---
-# 使用 Styles.Render include JS、CSS
+## **使用 Styles.Render include JS、CSS**
 ### **include JS、CSS**
 在 AppWeb/**BundleConfig** RegisterBundles function 中輸入
 ```

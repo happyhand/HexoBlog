@@ -12,7 +12,7 @@ tags: Python
 在工具方面，塔克是使用 [VS Code](https://code.visualstudio.com/) 來做為 Python 的文本編輯器
 有興趣的朋友可以參考一下
 這邊會再重新複習上一個章節 [Python 隨手筆記 - 安裝Django](http://happyhand.github.io/2018/11/26/Python-隨手筆記-安裝Django/) 所進行的步驟
-已經熟悉的朋友可以直接跳過，直接往下一個步驟 **讓伺服器跑起來 !** 進行
+已經熟悉的朋友可以直接跳過，直接往下一個步驟 [**讓伺服器跑起來 !**](https://happyhand.github.io/2018/11/28/Python-%E9%9A%A8%E6%89%8B%E7%AD%86%E8%A8%98-%E7%94%A8-Django-%E4%BD%9C%E5%80%8B%E7%B6%B2%E9%A0%81%E5%90%A7/#%E8%AE%93%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%B7%91%E8%B5%B7%E4%BE%86) 進行
 #### **安裝 VS Code**
 首先先到 [VS Code 官網](https://code.visualstudio.com/) 安裝 **VS Code**
 ![](https://imgur.com/mBDSgJC.png)

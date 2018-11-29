@@ -7,6 +7,7 @@ tags: Python
 ## **安裝 Django**
 在開始 Python 之旅前
 咱們來安裝 **Django** 作為 Python 的 web 框架
+(有裝 **VS Code** 的朋友，可以直接到 [Python 隨手筆記 - 用 Django 作個網頁吧 !](http://happyhand.github.io/2018/11/28/Python-隨手筆記-用-Django-作個網頁吧/) 進行相同步驟)
 #### **建立 Django 資料夾**
 在開始一連串的安裝程序之前
 我們先建立一個待會要安裝 Django 的資料夾

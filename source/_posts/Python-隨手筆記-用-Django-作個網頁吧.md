@@ -38,12 +38,12 @@ python -m venv venv
 接著就會看到原本 Django 資料夾中，多了一個 venv 資料夾
 ![](https://imgur.com/SlDWDuT.png)
 
-接著我們執行 **~venv/Scripts/activate**，以進入到虛擬環境中
+接著我們執行 **~/venv/Scripts/activate**，以進入到虛擬環境中
 這邊塔克有遇到 **終端機 powershell** 無法執行的問題 (如圖中的紅色提示)
 ![](https://imgur.com/v6Dpn5H.png)
 
 此時我們打開 powershell (記得使用**管理員模式**)
-輸入以下指令，並選擇 **Y** 即可正常執行 **~venv/Scripts/activate** 指令
+輸入以下指令，並選擇 **Y** 即可正常執行 **~/venv/Scripts/activate** 指令
 ```
 Set-ExecutionPolicy RemoteSigned
 ```
@@ -61,7 +61,7 @@ pip install django==2.1.3
 
 完成後，輸入以下代碼創建專案
 ```
-python ~venv\Scripts\django-admin.py startproject yourprojectname
+python ~\venv\Scripts\django-admin.py startproject yourprojectname
 ```
 塔克這邊的例子是
 ```
@@ -102,7 +102,7 @@ python manage.py startapp ApiService
 ```
 # Application definition
 
-INSTALLED_APPS = (
+INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -110,7 +110,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ApiService', #加上自己的應用程式，提供給 Django 管理
-)
+]
 ```
 ## **HTTP request & HTTP response**
 打開 **~/ApiService/views.py**

@@ -29,7 +29,7 @@ python -m venv venv
 成功後就會看到原本 Django 資料夾中，多了一個 venv 資料夾
 ![](https://imgur.com/SlDWDuT.png)
 
-接著我們執行 **~venv/Scripts/activate**，以進入到虛擬環境中
+接著我們執行 **~/venv/Scripts/activate**，以進入到虛擬環境中
 ![](https://imgur.com/qYRZHqr.png)
 
 成功後，會如下圖顯示 (前方會掛載自訂的虛擬環境名稱，如塔克所自訂的 **venv**)
@@ -49,7 +49,7 @@ pip install django==1.6.6
 完成後，咱們來創建專案 !
 輸入以下代碼
 ```
-python ~venv\Scripts\django-admin.py startproject yourprojectname
+python ~\venv\Scripts\django-admin.py startproject yourprojectname
 ```
 塔克這邊的例子是
 ```
@@ -69,7 +69,7 @@ pip install django==2.1.3
 安裝好後，咱們重新創建專案 !
 重新輸入剛剛得代碼
 ```
-python ~venv\Scripts\django-admin.py startproject yourprojectname
+python ~\venv\Scripts\django-admin.py startproject yourprojectname
 ```
 ![](https://imgur.com/EJuVs2t.png)
 

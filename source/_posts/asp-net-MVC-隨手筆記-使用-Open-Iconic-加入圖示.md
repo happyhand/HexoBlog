@@ -2,7 +2,7 @@
 title: asp.net MVC 隨手筆記 - 使用 Open Iconic 加入圖示
 date: 2018-11-22 17:21:46
 categories: 學習日誌
-tags: asp.new MVC
+tags: asp.net MVC
 ---
 ## **使用 Open Iconic 添加網頁圖示**
 於 [OPENICONIC 官網](https://useiconic.com/open/) 下載圖示壓縮檔

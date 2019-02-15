@@ -12,7 +12,7 @@ tags: asp.net core
 ![](https://imgur.com/R4GYD2g.png)
 
 ## **架設 .net core API 站台**
-於 IIS 設定 API 站台
+於 **IIS** 設定 API 站台
 這邊要注意幾個要點
 1. 需使用 **發行** 發佈檔案
 ![](https://imgur.com/PmudzhH.png)

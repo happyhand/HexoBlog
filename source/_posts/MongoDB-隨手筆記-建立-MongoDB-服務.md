@@ -71,5 +71,26 @@ sc delete MyMongoServiceDB
 ```
 ![](https://imgur.com/TPBR3uX.png)
 
+## **額外小補充**
+如果大家有跟我碰到一樣的雷，下面解法給大家做參考一下!
+
+狀況 1.
+```
+Requested option conflicts with current storage engine option for directoryPerDB; 
+you requested true but the current server storage is already set to false and cannot be changed, terminating
+```
+請清除掉 **mongo.config** 中的 **dbPath** 路徑下的所有檔案
+以塔克的範例為例，則是清除掉 **data/db** 資料夾下的所有檔案
+
+狀況 2.
+```
+xxx requires an absolute file path with Windows services
+```
+這邊 **xxx** 可能會是 **config** 或是 **log** 或是其他類型
+其原因基本上都是路徑設定錯誤
+有可能是在 **mongo.config** 寫錯了路徑或是在路徑上加上了 **雙引號 - "**
+或者是在 **命令提示字元** 中所執行的 **mongod --config d:\MongoDB\mongo.config --install** 這段代碼
+路徑有設定錯誤
+
 **參考**
 [MongoDB 官網文件](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
